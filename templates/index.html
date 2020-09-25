@@ -3,7 +3,7 @@
          <link rel="stylesheet" href={{ url_for('static', filename='style.css') }} />
     </head>
         <body>
-            <h1>Hello world! Harsh  {{ random_number }}</h1>
+            <h1>Hello world!  {{ random_number }}</h1>
              {%for i in range(0,random_number)%}
                  <img src="static/photos.jpg"  >
              {%endfor%}
