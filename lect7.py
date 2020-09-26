@@ -3,7 +3,7 @@ import os
 import random
 
 app = flask.Flask(__name__)
-#lol
+
 @app.route('/') # Python decorator 
 def index():
     num = random.randint(1,20)
